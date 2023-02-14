@@ -24,11 +24,13 @@ An analysis folder that contains your text file that has the results from your a
 Push these changes to GitHub or GitLab.
 
 Files
+
 Download the following files to help you get started:
 
 Module 3 Challenge filesLinks to an external site.
 
 PyBank Instructions
+
 In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
 Your task is to create a Python script that analyzes the records to calculate each of the following values:
@@ -55,6 +57,7 @@ Greatest Decrease in Profits: Feb-14 ($-1825558)
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
 PyPoll Instructions
+
 In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
 
 You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following values:
