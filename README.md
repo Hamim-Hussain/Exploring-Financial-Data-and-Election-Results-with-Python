@@ -13,14 +13,14 @@ Within Resources Folder in the PyBank and PyPoll folders:
 
 ### PyBank
 
-![pybank-analysis](Images/pybank-analysis)
+![pybank-analysis](Images/pybank-analysis.JPG)
 
 * The analysis of the 'budget_data.csv' dataset reveals intriguing financial insights over a span of 86 months. The total cumulative profit/loss during this period amounts to a substantial $22,564,198. The dataset showcases a range of fluctuations, with an average monthly change of -$8,311.11.
 * The most remarkable observation pertains to the greatest increase in profits, occurring in August 2016, with an impressive increase of $1,862,002. This indicates a potentially successful financial strategy or event during that month. Conversely, the most significant decrease in profits occurred in February 2014, registering a drop of -$1,825,558. This period could warrant further investigation into the factors contributing to this downturn.
 
 ### PyPoll
 
-![pypoll-analysis](Images/pypoll-analysis)
+![pypoll-analysis](Images/pypoll-analysis.JPG)
 
 * The analysis of the 'election_data.csv' dataset provides a comprehensive view of the election results, reflecting a total of 369,711 votes cast. The election showcased a competitive contest among three candidates: Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane. Diana DeGette emerged as the clear victor with an overwhelming 73.812% of the total votes, totaling 272,892 votes in her favor.
 * Charles Casper Stockham secured 23.049% of the votes, indicating a notable level of support but falling behind DeGette. Raymon Anthony Doane received 3.139% of the votes, highlighting a smaller yet significant portion of the electorate.
