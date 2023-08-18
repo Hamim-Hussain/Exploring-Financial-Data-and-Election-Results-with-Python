@@ -27,3 +27,5 @@ Within Resources Folder in the PyBank and PyPoll folders:
 * The outcome reveals a strong mandate for Diana DeGette, who garnered the majority of votes and was declared the winner of the election. Her substantial support demonstrates her popularity and resonance with the electorate, positioning her as a prominent figure in the political landscape.
 
 ## Conclusion
+1. For the 'Financial Data', the data portrays a dynamic financial journey marked by notable fluctuations, both positive and negative. The findings underscore the need for careful financial management and strategic decision-making to maximise gains and mitigate losses in the business's financial trajectory.
+2. For the 'Election Data', the data underscores the democratic process's pivotal role in determining the chosen representative, with Diana DeGette securing a significant win and the majority of votes. The findings emphasise the importance of understanding the voters' preferences and crafting campaigns that resonate effectively with the electorate.
