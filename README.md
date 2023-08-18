@@ -13,169 +13,17 @@ Within Resources Folder in the PyBank and PyPoll folders:
 
 ### PyBank
 
-Financial Analysis
-----------------------------
-Total Months: 86
-Total: $22564198
-Average Change: $-8311.11
-Greatest Increase in Profits: Aug-16 ($1862002)
-Greatest Decrease in Profits: Feb-14 ($-1825558)
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+![pybank-analysis](Images/pybank-analysis)
 
 * The analysis of the 'budget_data.csv' dataset reveals intriguing financial insights over a span of 86 months. The total cumulative profit/loss during this period amounts to a substantial $22,564,198. The dataset showcases a range of fluctuations, with an average monthly change of -$8,311.11.
 * The most remarkable observation pertains to the greatest increase in profits, occurring in August 2016, with an impressive increase of $1,862,002. This indicates a potentially successful financial strategy or event during that month. Conversely, the most significant decrease in profits occurred in February 2014, registering a drop of -$1,825,558. This period could warrant further investigation into the factors contributing to this downturn.
 
+### PyPoll
 
-Background
+![pypoll-analysis](Images/pypoll-analysis)
 
-It's time to put away the Excel sheet and enter the world of programming with Python. In this assignment, you'll use the concepts you've learned to complete two Python challenges, PyBank and PyPoll. Both tasks present a real-world situation where your newly developed Python scripting skills come in handy.
+* The analysis of the 'election_data.csv' dataset provides a comprehensive view of the election results, reflecting a total of 369,711 votes cast. The election showcased a competitive contest among three candidates: Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane. Diana DeGette emerged as the clear victor with an overwhelming 73.812% of the total votes, totaling 272,892 votes in her favor.
+* Charles Casper Stockham secured 23.049% of the votes, indicating a notable level of support but falling behind DeGette. Raymon Anthony Doane received 3.139% of the votes, highlighting a smaller yet significant portion of the electorate.
+* The outcome reveals a strong mandate for Diana DeGette, who garnered the majority of votes and was declared the winner of the election. Her substantial support demonstrates her popularity and resonance with the electorate, positioning her as a prominent figure in the political landscape.
 
-Before You Begin
-
-Before starting the assignment, be sure to complete the following steps:
-
-Create a new repository for this project called python-challenge. Do not add this homework assignment to an existing repository.
-
-Clone the new repository to your computer.
-
-Inside your local Git repository, create a folder for each Python assignment and name them PyBank and PyPoll.
-
-In each folder that you just created, add the following content:
-
-A new file called main.py. This will be the main script to run for each analysis.
-
-A Resources folder that contains the CSV files you used. Make sure that your script has the correct path to the CSV file.
-
-An analysis folder that contains your text file that has the results from your analysis.
-
-Push these changes to GitHub or GitLab.
-
-Files
-
-Download the following files to help you get started:
-
-Module 3 Challenge filesLinks to an external site.
-
-PyBank Instructions
-
-In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
-
-Your task is to create a Python script that analyzes the records to calculate each of the following values:
-
-The total number of months included in the dataset
-
-The net total amount of "Profit/Losses" over the entire period
-
-The changes in "Profit/Losses" over the entire period, and then the average of those changes
-
-The greatest increase in profits (date and amount) over the entire period
-
-The greatest decrease in profits (date and amount) over the entire period
-
-Your analysis should align with the following results:
-
-Financial Analysis
-----------------------------
-Total Months: 86
-Total: $22564198
-Average Change: $-8311.11
-Greatest Increase in Profits: Aug-16 ($1862002)
-Greatest Decrease in Profits: Feb-14 ($-1825558)
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
-
-PyPoll Instructions
-
-In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
-
-You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". Your task is to create a Python script that analyzes the votes and calculates each of the following values:
-
-The total number of votes cast
-
-A complete list of candidates who received votes
-
-The percentage of votes each candidate won
-
-The total number of votes each candidate won
-
-The winner of the election based on popular vote
-
-Your analysis should align with the following results:
-
-Election Results
--------------------------
-Total Votes: 369711
--------------------------
-Charles Casper Stockham: 23.049% (85213)
-Diana DeGette: 73.812% (272892)
-Raymon Anthony Doane: 3.139% (11606)
--------------------------
-Winner: Diana DeGette
--------------------------
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
-
-Hints and Considerations
-Consider what you've learned so far. You've learned how to import modules like csv. You’ve learned how to read and write files in various formats. You’ve learned how to store content in variables, lists, and dictionaries. You’ve learned how to iterate through basic data structures. And you’ve learned how to debug along the way. Using all that you've learned, try to break down your tasks into discrete mini-objectives.
-
-The datasets for these Challenges are quite large. This was done purposefully to showcase one of the limits of Excel-based analysis. As data analysts, our first instinct is often to go straight to Excel, but creating scripts in Python can provide us with more powerful options for handling big data.
-
-Write one script for each of the provided datasets. Run each script separately to make sure that the code works for its respective dataset.
-
-Always commit your work and back it up with pushes to GitHub or GitLab. You don't want to lose hours of your hard work! Also make sure that your repo has a detailed README.md file.
-
-Requirements
-Correctly Reads in the CSV (10 points)
-Reads in the CSVs for both PyBank and PyPoll using Python (5 points)
-
-Successfully stores the header row (5 points)
-
-Results Printed out to correctly to terminal (40 points)
-Results correctly display for PyBank:
-
-Total Months (5 points)
-
-Total (5 points)
-
-Average Change (5 points)
-
-Greatest Increase (5 points)
-
-Greatest Decrease (5 points)
-
-Results correctly display for PyPoll:
-
-Total Votes (5 points)
-
-Each candidate’s total votes and percent of votes (5 points)
-
-Winner (5 points)
-
-Code Runs Error Free (10 points)
-Error Free (5 points)
-
-Producing consistent results (5 points)
-
-Exports results to text file (30 points)
-The text file contains for PyBank:
-
-Total Months (2.5 points)
-
-Total (2.5 points)
-
-Average Change (5 points)
-
-Greatest Increase (5 points)
-
-Greatest Decrease (5 points)
-
-The text file contains for Pypoll:
-
-Total Votes (2.5 points)
-
-Each candidate’s total votes and percent of votes (2.5 points)
-
-Winner (5 points)
-
-Code is cleaned and commented (10 points)
-Has additional tests and debugging removed (5 points)
-
-Commented (5 points)
+## Conclusion
