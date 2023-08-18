@@ -11,6 +11,20 @@ Within Resources Folder in the PyBank and PyPoll folders:
 
 ## Findings
 
+### PyBank
+
+Financial Analysis
+----------------------------
+Total Months: 86
+Total: $22564198
+Average Change: $-8311.11
+Greatest Increase in Profits: Aug-16 ($1862002)
+Greatest Decrease in Profits: Feb-14 ($-1825558)
+In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+
+* The analysis of the 'budget_data.csv' dataset reveals intriguing financial insights over a span of 86 months. The total cumulative profit/loss during this period amounts to a substantial $22,564,198. The dataset showcases a range of fluctuations, with an average monthly change of -$8,311.11.
+* The most remarkable observation pertains to the greatest increase in profits, occurring in August 2016, with an impressive increase of $1,862,002. This indicates a potentially successful financial strategy or event during that month. Conversely, the most significant decrease in profits occurred in February 2014, registering a drop of -$1,825,558. This period could warrant further investigation into the factors contributing to this downturn.
+
 
 Background
 
